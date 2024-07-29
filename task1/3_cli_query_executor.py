@@ -1,6 +1,10 @@
 import psycopg2
 import tabulate
 
+'''
+модуль для введення qsl-команд в командний рядок та їх виконання. Тут можна перевірити результати виконання команд з ДЗ з файла queries.sql.
+'''
+
 host = "localhost"
 database = "postgres"
 user = "postgres"
